@@ -6,7 +6,6 @@ def subtract(a, b)
 	subtract = a - b
 end
 
-
 def sum(a)
 	a.inject(0) {|tot, x| tot += x}
 end
